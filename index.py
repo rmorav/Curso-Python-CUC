@@ -28,4 +28,40 @@ c = 4+5j
 
 
 print(x, y, z, a, b, c)
-print(type (b))
+
+# conocer el tipo de dato de la variable
+print(type(b))
+
+# convertir un tipo de dato
+
+# enteros
+x = int(2)
+print(x)
+
+# trunca
+x = int(2.8)
+print(x)
+
+# cadenas
+x = int("2")
+print(x)
+
+# manejo de cadenas de textos y algunos metodos
+
+cad = "Hola Mundo"
+print(cad[0])
+print(cad[2])
+print(cad[0:5])
+cad = cad.strip()
+print(cad[0])
+
+print(len(cad))
+print(cad.lower())
+print(cad.upper())
+print(cad.replace('l','y'))
+print(cad.split(" "))
+
+
+
+
+
