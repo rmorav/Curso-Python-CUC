@@ -15,3 +15,26 @@ else:
 
 # si de linea con sino
 print("ud es mayor de edad") if edad >= 18 else print("ud es menor de edad") 
+
+# si de linea sin sino
+if edad >= 18: print("ud es mayor de edad")
+
+
+# Arrays
+
+V = ["Hola", "mundo", 4, 3, 2, True, ["otro", "arreglo", "dentro"]]
+v2 = ["Hola", "mundo"]
+v3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+
+# mostrar un elemento de un arreglo
+print(V[0])
+    
+
+# modificar un elemento de un arreglo
+v2[1] = "Rafael"
+
+# Eliminar un elemento 
+v2.remove("Hola")
+
